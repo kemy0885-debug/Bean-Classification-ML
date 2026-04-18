@@ -24,4 +24,10 @@ Things that could be changed to help with the precision for the confusion matrix
 - max_depth:	How deep each tree can grow. ->	Try setting max_depth=10 or max_depth=20.
 - min_samples_split:	The minimum number of data points needed to split a branch. ->	Try min_samples_split=5.
 
+<img width="1566" height="1371" alt="confusion_matrix_2" src="https://github.com/user-attachments/assets/1f4d4085-231a-4069-b03f-bfac82f896ea" />
+
+<img width="875" height="468" alt="classification_matrix_2" src="https://github.com/user-attachments/assets/13d15c1b-f8f3-4645-a298-def47591fd93" />
+
+In the second version, I increased the number of trees (n_estimators) from 100 to 500 and set a max_depth of 15 to see if it would help the model catch more patterns. This seems to have made it only slightly more accurate than before.
+
 ## Deliverable 5: 
