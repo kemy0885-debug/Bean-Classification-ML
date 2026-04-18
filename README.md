@@ -11,10 +11,12 @@ Instead of one single Decision Tree looking at the bean data and making a guess,
 - Correlated Data: "The instructions mentioned bean measurements are highly correlated." For this specific problem the parameters are closely related which makes it             harder to differentiate between different types of beans. Random Forests handle this much better than other basic models.
 
 ## Deliverable 3:
-<img width="1647" height="1403" alt="confusion_matrix_1" src="https://github.com/user-attachments/assets/d2504faf-10ee-4b6f-9a8c-3de4a197fad8" />
+<img width="875" height="484" alt="classification_matrix_1" src="https://github.com/user-attachments/assets/f27e03c5-65ec-48b9-8eb8-6a7cf85937de" />
 
 <img width="875" height="484" alt="classification_matrix_1" src="https://github.com/user-attachments/assets/2e19472c-aaec-4b01-9d58-6bcc5db38821" />
 
-While the model was 92% accurate overall, it only correctly identified 80% of the Sira beans (Recall). Looking at the confusion matrix, we can see many Sira beans were misclassified as Dermason.
+-While the model was 93% accurate overall, it only correctly identified 88% of the Sira beans (Recall). Looking at the confusion matrix, we can see many Sira beans were misclassified as Dermason and vice versa.
+-Its also interesting to note that the bombay bean was precise 100% of the time. I don't know what a bombay bean looks like but it must have very uniquely distinct parameters from the other beans.
+
 ## Deliverable 4:
 ## Deliverable 5: 
