@@ -19,4 +19,9 @@ Instead of one single Decision Tree looking at the bean data and making a guess,
 -Its also interesting to note that the bombay bean was precise 100% of the time. I don't know what a bombay bean looks like but it must have very uniquely distinct parameters from the other beans.
 
 ## Deliverable 4:
+Things that could be changed to help with the precision for the confusion matrix:
+- n_estimators:	The number of trees in the forest. ->	Try changing 100 to 200 or 500.
+- max_depth:	How deep each tree can grow. ->	Try setting max_depth=10 or max_depth=20.
+- min_samples_split:	The minimum number of data points needed to split a branch. ->	Try min_samples_split=5.
+
 ## Deliverable 5: 
