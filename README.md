@@ -31,3 +31,6 @@ Things that could be changed to help with the precision for the confusion matrix
 In the second version, I increased the number of trees (n_estimators) from 100 to 500 and set a max_depth of 15 to see if it would help the model catch more patterns. This seems to have made it only slightly more accurate than before.
 
 ## Deliverable 5: 
+<img width="1925" height="1085" alt="feature_importance_plot" src="https://github.com/user-attachments/assets/55fb1eed-3b14-4b94-b339-69af0f213fe5" />
+It looks like the model relies heavily on shapfactors 1 and 3, but relies least on things like "Extent", "Solidity", and shapefactors 2 and 4.
+
