@@ -11,7 +11,7 @@ Instead of one single Decision Tree looking at the bean data and making a guess,
 - Correlated Data: "The instructions mentioned bean measurements are highly correlated." For this specific problem the parameters are closely related which makes it             harder to differentiate between different types of beans. Random Forests handle this much better than other basic models.
 
 ## Deliverable 3:
-<img width="875" height="484" alt="classification_matrix_1" src="https://github.com/user-attachments/assets/f27e03c5-65ec-48b9-8eb8-6a7cf85937de" />
+<img width="1660" height="1384" alt="confusion_matrix_1" src="https://github.com/user-attachments/assets/76674b55-dec0-4c1c-b484-bec0a8c64303" />
 
 <img width="875" height="484" alt="classification_matrix_1" src="https://github.com/user-attachments/assets/2e19472c-aaec-4b01-9d58-6bcc5db38821" />
 
