@@ -33,4 +33,7 @@ In the second version, I increased the number of trees (n_estimators) from 100 t
 ## Deliverable 5: Feature Importance
 <img width="1925" height="1085" alt="feature_importance_plot" src="https://github.com/user-attachments/assets/55fb1eed-3b14-4b94-b339-69af0f213fe5" />
 It looks like the model relies heavily on shapfactors 1 and 3, but relies least on things like "Extent", "Solidity", and shapefactors 2 and 4.
-
+---
+## References
+* Koklu, M., and Ozkan, I. A. (2020). "Dry Bean Dataset." UCI Machine Learning Repository. https://doi.org/10.24432/C50S4B.
+* Duo, P., et al. "UCI Machine Learning Repository." University of California, Irvine, School of Information and Computer Sciences.
