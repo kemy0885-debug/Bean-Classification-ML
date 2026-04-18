@@ -10,7 +10,7 @@ Instead of one single Decision Tree looking at the bean data and making a guess,
 - Robustness: "It’s hard to "fool" a whole forest." This means a larger dataset is more accurate and will sort out when there are outlier results allowing for more               accurate result.
 - Correlated Data: "The instructions mentioned bean measurements are highly correlated." For this specific problem the parameters are closely related which makes it             harder to differentiate between different types of beans. Random Forests handle this much better than other basic models.
 
-## Deliverable 3:
+## Deliverable 3: First Iteration
 <img width="1660" height="1384" alt="confusion_matrix_1" src="https://github.com/user-attachments/assets/76674b55-dec0-4c1c-b484-bec0a8c64303" />
 
 <img width="875" height="484" alt="classification_matrix_1" src="https://github.com/user-attachments/assets/2e19472c-aaec-4b01-9d58-6bcc5db38821" />
@@ -18,8 +18,8 @@ Instead of one single Decision Tree looking at the bean data and making a guess,
 -While the model was 93% accurate overall, it only correctly identified 88% of the Sira beans (Recall). Looking at the confusion matrix, we can see many Sira beans were misclassified as Dermason and vice versa.
 -Its also interesting to note that the bombay bean was precise 100% of the time. I don't know what a bombay bean looks like but it must have very uniquely distinct parameters from the other beans.
 
-## Deliverable 4:
-Things that could be changed to help with the precision for the confusion matrix:
+## Deliverable 4: Improved Model
+Gemini Suggested things that could be changed to help with the precision for the confusion matrix:
 - n_estimators:	The number of trees in the forest. ->	Try changing 100 to 200 or 500.
 - max_depth:	How deep each tree can grow. ->	Try setting max_depth=10 or max_depth=20.
 - min_samples_split:	The minimum number of data points needed to split a branch. ->	Try min_samples_split=5.
@@ -30,7 +30,7 @@ Things that could be changed to help with the precision for the confusion matrix
 
 In the second version, I increased the number of trees (n_estimators) from 100 to 500 and set a max_depth of 15 to see if it would help the model catch more patterns. This seems to have made it only slightly more accurate than before.
 
-## Deliverable 5: 
+## Deliverable 5: Feature Importance
 <img width="1925" height="1085" alt="feature_importance_plot" src="https://github.com/user-attachments/assets/55fb1eed-3b14-4b94-b339-69af0f213fe5" />
 It looks like the model relies heavily on shapfactors 1 and 3, but relies least on things like "Extent", "Solidity", and shapefactors 2 and 4.
 
